@@ -1,0 +1,26 @@
+@import '@styles';
+
+.Login {
+	display: flex;
+	min-height: 100vh;
+
+	&__paper {
+		margin: auto;
+		width: 400px;
+		padding: spacing(m) spacing(s);
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: spacing(s);
+	}
+
+	&__title {
+		margin: 0;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	&__register {
+		text-align: right;
+		cursor: pointer;
+	}
+}

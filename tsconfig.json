@@ -1,0 +1,49 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"useDefineForClassFields": true,
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"allowJs": false,
+		"skipLibCheck": false,
+		"esModuleInterop": false,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react-jsx",
+		"paths": {
+			// Store
+			"@app/store/actions": ["./src/store/actions/index.ts"],
+			"@app/store/reducers": ["./src/store/reducers/index.ts"],
+			"@app/store": ["./src/store/store.ts"],
+			// App
+			"@app/modules": ["./src/modules/index.ts"],
+			// Shared
+			"@app/shared/components": ["./src/shared/components/index.ts"],
+			"@app/shared/guards": ["./src/shared/guards/index.ts"],
+			"@app/shared/services": ["./src/shared/services/index.ts"],
+			"@app/shared/hooks": ["./src/shared/hooks/index.ts"],
+			"@app/shared/models": ["./src/shared/models/index.ts"],
+			"@app/shared/utilities": ["./src/shared/utilities/index.ts"],
+			"@app/shared/views": ["./src/shared/views/index.ts"],
+			// Auth
+			"@app/auth/components": ["./src/modules/Auth/components/index.ts"],
+			"@app/auth/services": ["./src/modules/Auth/services/index.ts"],
+			"@app/auth/hooks": ["./src/modules/Auth/hooks/index.ts"],
+			"@app/auth/models": ["./src/modules/Auth/models/index.ts"],
+			"@app/auth/views": ["./src/modules/Auth/views/index.ts"],
+			// Dashboard
+			"@app/dashboard/components": ["./src/modules/Dashboard/components/index.ts"],
+			"@app/dashboard/services": ["./src/modules/Dashboard/services/index.ts"],
+			"@app/dashboard/hooks": ["./src/modules/Dashboard/hooks/index.ts"],
+			"@app/dashboard/models": ["./src/modules/Dashboard/models/index.ts"],
+			"@app/dashboard/views": ["./src/modules/Dashboard/views/index.ts"]
+		}
+	},
+	"include": ["src"],
+	"references": [{ "path": "./tsconfig.node.json" }]
+}
