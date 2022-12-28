@@ -1,7 +1,9 @@
 {
-	"name": "react-template",
+	"name": "template-react",
 	"private": false,
-	"version": "1.0.0",
+	"author": "Gregory J Lopez",
+	"homepage": "https://iamgld.com",
+	"version": "0.0.2",
 	"scripts": {
 		"start": "vite --mode development",
 		"start:prod": "vite --mode production",
@@ -15,19 +17,19 @@
 		"postinstall": "husky install"
 	},
 	"dependencies": {
-		"@emotion/react": "11.10.4",
-		"@emotion/styled": "11.10.4",
-		"@mui/icons-material": "5.10.6",
-		"@mui/material": "5.10.6",
-		"@reduxjs/toolkit": "1.8.5",
-		"axios": "0.27.2",
-		"axios-observable": "1.5.0",
+		"@emotion/react": "11.10.5",
+		"@emotion/styled": "11.10.5",
+		"@mui/icons-material": "5.11.0",
+		"@mui/material": "5.11.2",
+		"@reduxjs/toolkit": "1.9.1",
+		"axios": "1.2.1",
+		"axios-observable": "2.0.0",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
-		"react-redux": "8.0.2",
-		"react-router-dom": "6.4.0",
-		"rxjs": "7.5.6",
-		"styled-components": "5.3.5"
+		"react-redux": "8.0.5",
+		"react-router-dom": "6.6.1",
+		"rxjs": "7.8.0",
+		"styled-components": "5.3.6"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "17.1.2",
@@ -47,7 +49,7 @@
 		"eslint-plugin-react": "7.31.8",
 		"eslint-plugin-simple-import-sort": "8.0.0",
 		"husky": "8.0.1",
-		"prettier": "2.7.1",
+		"prettier": "2.8.1",
 		"sass": "1.54.9",
 		"typescript": "4.8.3",
 		"vite": "3.1.2",
